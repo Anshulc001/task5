@@ -1,0 +1,12 @@
+/* Reset margins/padding and use border-box sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make html and body full-viewport size */
+html, body {
+  height: 100%;
+  width: 100%;
+}
